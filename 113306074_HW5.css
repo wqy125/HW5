@@ -1,0 +1,128 @@
+body {
+        background-color: #eeede1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+        .main-container {
+            display: flex;
+            max-width: 900px;
+            width: 80%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px auto;
+        }
+
+        .left-panel {
+            width: 330px;
+            display: flex;
+            flex-direction: column;
+            background-color: #222;
+            color: white;
+            /*text-align: center;*/
+        }
+
+        .photo-panel {
+            background-image: url('001.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 330px;
+            width: 330px;
+        }
+
+        .name {
+            font-size: 32px;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .text-content {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .text-content strong {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .text-content p:not(.contact) {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .contact {
+            font-size: 14px;
+        }
+
+        .text-content img {
+            width: 200px;
+            align-self: center;
+        }
+
+        .right-panel {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+        }
+
+        .section ul li a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .section ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .music-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .music-item {
+            text-align: center;
+            width: 22%;
+        }
+
+        .music-row img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .note {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
